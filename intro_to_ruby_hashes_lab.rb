@@ -19,12 +19,7 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-  hash_names = {:name => "Steve", "name" => "Tzvi"}
-  puts hash_names[:name]
-  puts hash_names["name"]
-
-  hash_age {:age => 31}
-  puts hash_age[:name]
+  hash[key]
 
 end
 
